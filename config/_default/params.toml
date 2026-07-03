@@ -10,7 +10,7 @@ favicon        = "img/favicon.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
+#    since      = 2024
     customText = ""
 
 [dateFormat]
@@ -18,17 +18,17 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    emoji    = ""
+    subtitle = "Personal Papercraft Blog"
     avatar   = "img/avatar.png"
 
 [article]
     headingAnchor = false
     math          = false
-    readingTime   = true
+    readingTime   = false
 
     [article.license]
-        enabled = true
+        enabled = false
         default = "Licensed under CC BY-NC-SA 4.0"
 
 [widgets]
@@ -36,7 +36,7 @@ SortBy              = "default"
         { type = "search" },
         { type = "archives", params = { limit = 5 } },
         { type = "categories", params = { limit = 10 } },
-        { type = "tag-cloud", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 20 } },
     ]
     page = [{ type = "toc" }]
 
@@ -50,7 +50,7 @@ SortBy              = "default"
 
 ## Comments
 [comments]
-    enabled  = true
+    enabled  = false
     provider = "disqus"
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml

@@ -10,15 +10,26 @@
 [[social]]
     identifier = "github"
     name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+    url        = "https://github.com/ChimeraLens"
 
     [social.params]
-        icon = "brand-github"
+        icon = "github-outline"
 
 [[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+    identifier = "pixiv"
+    name       = "Pixiv"
+    url        = "https://pixiv.me/chimeralens"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "pixiv-outline"
+
+[[main]]
+    identifier = "supportme"
+    name       = "Support Me"
+    url        = "https://ko-fi.com/chimeralens"
+    weight     = 4
+
+    [main.params]
+        icon = "heart"
+        newtab = true
+        

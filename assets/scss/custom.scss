@@ -1,3 +1,30 @@
 /*
     You can add your own custom styles here.
 */
+
+/* cabin-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/cabin-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* cabin-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/cabin-v35-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-color-emoji-regular - emoji */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Noto Color Emoji';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/noto-color-emoji-v38-emoji-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
